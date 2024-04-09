@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.subtitle {
+    font-style: italic;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+#about {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+#about img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+.about-text {
+    text-align: center;
+}
+
+#skills {
+    padding: 50px 0;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill {
+    text-align: center;
+}
+
+.skill h3 {
+    margin-top: 0;
+}
+
+.skill-bar {
+    background-color: #ddd;
+    border-radius: 5px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.skill-level {
+    background-color: #4caf50;
+    color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    /* Adjust based on skill level */
+}
+
+.project-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+}
+
+.project-info {
+    padding: 20px;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-links li:last-child {
+    margin-right: 0;
+}
